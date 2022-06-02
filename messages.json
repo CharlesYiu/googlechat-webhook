@@ -1,0 +1,28 @@
+{
+    "people": {
+        "charles": "<charles's webhook url>",
+        "charlotte": "<charlotte's webhook url>"
+    },
+    "messages": [
+        {
+            "person": "charles",
+            "text": "hello"
+        },
+        {
+            "person": "charlotte",
+            "text": "hello",
+            "wait": 5
+        },
+        {
+            "person": "charles",
+            "text": "bye",
+            "wait": 2
+        }
+        ,
+        {
+            "person": "charlotte",
+            "text": "bye",
+            "wait": 3
+        }
+    ]
+}
